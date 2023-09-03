@@ -22,7 +22,7 @@ public class Main {
 		motherboardSpecs.add("SATA slots count – 4");
 		motherboardSpecs.add("M2 slots count – 2");
 		
-		
+	
 		
 		//Individual parts
 		Parts pcCase = new Parts("Pc Case", false, pcCaseSpecs);
@@ -71,18 +71,28 @@ public class Main {
 		System.out.println();
 		
 		//Print specifications
-		
 //		for (Parts p : pc1.getParts()) {
-//			System.out.println(p.getName() + " specifications:");
-//			if (p.getSpecs().isEmpty()) {
-//				System.out.println("None");
-//			}
-//			else {
-//				p.printSpecs();
-//			}
-//			
-//			
+//		System.out.println(p.getName() + " specifications:");
+//		if (p.getSpecs().isEmpty()) {
+//			System.out.println("None");
 //		}
+//		else {
+//			p.printSpecs();
+//		}
+//	}
+		
+		
+		
+		
+		//Nested for each
+//		for (Parts p : pc1.getParts()) {
+//			for (String s : p.getSpecs()) {
+//				System.out.println(s);
+//			}
+//		}
+		
+		
+
 		
 		
 	}
